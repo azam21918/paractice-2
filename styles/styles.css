@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* sheared style */
+.btn {
+    background-color: rgb(174, 169, 169);
+    color: white;
+    padding: 10px 28px 10px 28px;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* font related style */
+.azeret-mono-primary {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* header section style */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 28px 140px 5px 140px;
+    padding: 10px;
+}
+
+/* background image setter  */
+.bg-img {
+    background-image: url("../assets/Hero-bg.png");
+    height: 75vh;
+    width: 100%;
+    border: 2px solid rgb(141, 135, 135);
+    margin-top: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-2 {
+    background-color: black;
+    color: azure;
+    padding: 10px 28px 10px 28px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.banner-h {
+    margin: 2px 0 3px 0;
+}
+
+.banner-p {
+    margin: 2px 0 3px 0;
+}
+
+/* main section style */
+.main-item {
+    margin-top: 100px;
+    margin-left: 140px;
+    margin-right: 140px;
+    padding-bottom:70px;
+}
+
+.main-head {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.bg-main {
+    background-color:rgba(13, 19, 33, 0.02);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+/* card style */
+.main-card-1{
+    display: flex;
+    border: 4px gray;
+    background-color: rgb(242, 242, 242);
+    margin: 36px;
+    padding: 10px 28px 10px 28px;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn-learn{
+    background-color: white;
+    color: black;
+    padding: 10px 28px 10px 28px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 400;
+    border: black solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
