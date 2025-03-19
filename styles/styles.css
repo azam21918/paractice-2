@@ -66,22 +66,24 @@
     margin-top: 100px;
     margin-left: 140px;
     margin-right: 140px;
-    padding-bottom:70px;
+    padding-bottom: 70px;
 }
 
 .main-head {
     margin-top: 100px;
     width: 100%;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .bg-main {
-    background-color:rgba(13, 19, 33, 0.02);
+    background-color: rgba(13, 19, 33, 0.02);
     border-radius: 5px;
     margin-top: 10px;
 }
+
 /* card style */
-.main-card-1{
+.main-card-1 {
     display: flex;
     border: 4px gray;
     background-color: rgb(242, 242, 242);
@@ -91,7 +93,8 @@
     justify-content: space-around;
     align-items: center;
 }
-.btn-learn{
+
+.btn-learn {
     background-color: white;
     color: black;
     padding: 10px 28px 10px 28px;
@@ -102,7 +105,163 @@
     border-radius: 5px;
     cursor: pointer;
 }
-p{
+
+p {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.item-section {
+    display: flex;
+}
+
+.html-card {
+    justify-content: start;
+    margin: 10px;
+    padding: 20px;
+    /* border: 2px solid ; */
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 5px;
+}
+
+.css-card {
+    justify-content: start;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 5px;
+}
+
+.js-card {
+    justify-content: start;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 5px;
+
+}
+
+.html-card a {
+    text-decoration: none;
+    color: black;
+}
+
+.css-card a {
+    text-decoration: none;
+    color: black;
+}
+
+.js-card a {
+    text-decoration: none;
+    color: black;
+}
+
+.target-box {
+    margin: 20px;
+    padding: 20px;
+}
+
+.react-box {
+    display: flex;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 25px;
+    background-color: #FFFFFF;
+}
+
+.mongo-box {
+    display: flex;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    padding: 15px;
+    margin: 25px;
+}
+
+.node-box {
+    display: flex;
+    border-radius: 4px;
+    ;
+    background-color: #FFFFFF;
+    padding: 15px;
+    margin: 25px;
+}
+
+.react-semi {
+    margin-right: 50px;
+}
+
+.semi-react>a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-item-2 {
+    background-image: url("../assets/handshake.jpg");
+    width: 1140px;
+    height: 313px;
+    background-position: center;
+    /* ইমেজকে মাঝখানে স্থাপন করবে */
+    background-repeat: no-repeat;
+    /* ইমেজ রিপিট করবে না */
+    display: flex;
+    justify-content: center;
+    /* কনটেন্ট মাঝখানে আনবে */
+    text-align: center;
+    /* টেক্সট সেন্টার করবে */
+    margin: 68px;
+    border-radius: 5px;
+}
+
+.main-header {
+    color: aliceblue;
+}
+
+/* responsive term */
+@media screen and (max-width: 1024px) {
+    .nav, .main-card-1, .react-box, .mongo-box, .node-box, .item-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-item, .main-item-2 {
+        width: 90%;
+        margin: 30px auto;
+        padding: 20px;
+    }
+
+    .bg-img {
+        height: 50vh;
+        background-size: cover;
+    }
+
+    .btn, .btn-2 {
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .bg-img {
+        height: 40vh;
+    }
+
+    .btn, .btn-2 {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .main-item, .main-item-2 {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    .main-card-1 {
+        padding: 10px;
+    }
 }
